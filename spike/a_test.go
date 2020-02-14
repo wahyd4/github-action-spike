@@ -14,5 +14,5 @@ func A_Test(t *testing.T) {
 }
 
 func Test(t *testing.T) {
-	assert.Nil(t, 123, "It Should not be nil")
+	assert.NotNil(t, 123, "It Should not be nil")
 }
